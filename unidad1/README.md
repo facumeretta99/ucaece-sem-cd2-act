@@ -16,7 +16,7 @@ Según lo que hayas justificado en la consigna 2 y 3:
 | Consigna 2 (modelo) | Consigna 3 (adaptación) | Qué usás en este repo |
 |---|---|---|
 | Modelo cerrado (Gemini) | Prompt engineering | `src/main.py` con `MODEL_PROVIDER=gemini` |
-| Modelo de pesos abiertos (Groq) | Prompt engineering | `src/main.py` con `MODEL_PROVIDER=groq` |
+| Modelo de pesos abiertos (Groq) | Prompt engineering | `src/main.py` con `MODEL_PROVIDER=groq` | ELEGIDO
 | Modelo de pesos abiertos | PEFT (LoRA/QLoRA) | `notebooks/notebook_peft.ipynb` en Google Colab |
 | Cualquiera | Full fine-tuning | No se implementa acá (excede el hardware gratuito). Implementá la rama PEFT como aproximación factible y dejá esa limitación explicitada en tu informe. |
 
